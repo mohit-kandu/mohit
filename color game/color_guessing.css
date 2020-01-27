@@ -1,0 +1,38 @@
+body{
+	background-color: #232323;
+	font-family: comic sans ms;
+}
+h1{
+	color:white;
+	padding: 1% 20%;
+}
+
+.box{
+	width: 30%;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	float: left;
+	background-color: purple;
+}
+#container{
+	margin: 0 auto;
+	max-width: 600px;
+
+}
+span{
+	color: white;
+
+}
+.difficulty:hover{
+	color: gray;
+	transition: 0.3s;
+	cursor: context-menu;
+}
+.difficulty{
+	border: 1px round white;
+	font-size: 1.2em;
+	margin: 10px;
+	padding-left: 30px;
+
+
+}
