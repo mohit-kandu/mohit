@@ -1,0 +1,62 @@
+.container{
+	width: 360px;
+	margin: 100px auto;
+/*	text-align: center;*/
+	background-color: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	font-family: comic sans ms;
+}
+
+h2{
+	background-color: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 0 20px 0 20px;
+
+}
+img{
+	width: 50px;
+	margin: 0;
+	float: right;
+	padding: 5px;
+}
+
+input{
+	margin: 0;
+	padding: 4px;
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.checked{
+	text-decoration: line-through;
+	color: gray;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	padding: 5px 5px 5px 0;
+	background-color: rgb(255, 255, 255);
+	color: #666;
+}
+ul:hover{
+	cursor: default;
+}
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+/*span{
+	visibility: hidden;
+}*/
+.span{ /*for toggling visibility of delete icon*/
+	visibility: visible;
+	width: 20px;
+}
+.hide_show{ /*for toggling visibility of input*/
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
